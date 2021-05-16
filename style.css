@@ -124,6 +124,19 @@ p {
 #header .nav-list ul.active {
 	left: 0%;
 }
+
+#header .nav-list ul button {
+	font-size: 2.5rem;
+	font-weight: 500;
+	letter-spacing: 0.2rem;
+	text-decoration: none;
+	color: crimson;
+	text-transform: uppercase;
+	padding: 5px;
+	display: block;
+	background-color: transparent;
+}
+
 #header .nav-list ul a {
 	font-size: 2.5rem;
 	font-weight: 500;
@@ -134,18 +147,6 @@ p {
 	padding: 20px;
 	display: block;
 }
-#header .nav-list ul span {
-	font-size: 2.5rem;
-	font-weight: 500;
-	letter-spacing: 0.2rem;
-	text-decoration: none;
-	color: crimson;
-	text-transform: uppercase;
-	padding: 20px;
-	display: block;
-}
-
-
 
 #header .nav-list ul a::after {
 	content: attr(data-after);
